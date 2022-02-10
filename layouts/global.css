@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'Changa',
+    sans-serif;
+  src: local("Changa"),
+    url(~assets/fronts/Changa/Changa-VariableFont_wght.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'Old Standard TT',
+    serif;
+  src: local("Old Standard TT"),
+    url(~assets/fronts/Old_Standard_TT/OldStandardTT-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'Zen Kurenaido',
+    sans-serif;
+  src: local("Zen_Kurenaido"),
+    url(~assets/fronts/Zen_Kurenaido/ZenKurenaido-Regular.ttf) format("truetype");
+}
+
+* {
+  font-family: 'Changa',
+    sans-serif;
+}
