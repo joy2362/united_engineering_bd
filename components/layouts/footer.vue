@@ -5,11 +5,12 @@
         <div class="col-md-4 text-center">
           <h5>About us</h5>
           <p class="text-justify">
-            United Engineering has customized services which helps Bangladeshi
-            readymade Garments Manufacturers to Comply with ACCORD & ALLIANCE.
-            During this time FIRE SAFETY, ELECTRICAL SAFETY & Micro control have
-            become specialists in planned preventative maintenance as well as
-            Installations.
+            United Engineering Provided all types of FIRE & ELECTRICAL Safety
+            solutions. We are specialized in Designing, Supply, Installation &
+            Commissioning. Maintenance of Various Fire Protection & Alarm
+            systems. Our highly qualified & well-experienced engineers are able
+            to Design & Commission the system to meet the requirements of NFPA
+            or Others International & Local Authorities.
           </p>
         </div>
         <div class="col-md-4 text-center">

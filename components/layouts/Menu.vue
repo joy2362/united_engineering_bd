@@ -11,7 +11,7 @@
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav class="ml-auto">
         <NuxtLink to="/" class="nav-link">Home</NuxtLink>
-        <NuxtLink to="/about" class="nav-link">About Us</NuxtLink>
+        <NuxtLink to="/about-us" class="nav-link">About Us</NuxtLink>
 
         <b-nav-item-dropdown text="Our Product" right>
           <b-dropdown-item href="#">EN</b-dropdown-item>
