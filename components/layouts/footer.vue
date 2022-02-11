@@ -3,7 +3,12 @@
     <div class="mt-5">
       <div class="row pt-3">
         <div class="col-md-4 text-center">
-          <h5>About us</h5>
+          <b-img-lazy
+            rounded
+            src="~/assets/img/logo/logo.png"
+            alt=""
+            style="height: 70px; witdth: 100%; object-fit: cover"
+          ></b-img-lazy>
           <p class="text-justify">
             United Engineering Provided all types of FIRE & ELECTRICAL Safety
             solutions. We are specialized in Designing, Supply, Installation &
@@ -15,12 +20,12 @@
         </div>
         <div class="col-md-4 text-center">
           <h5>Quick Links</h5>
-          <NuxtLink to="/about" class="nav-link">About Us</NuxtLink>
+          <NuxtLink to="/about-us" class="nav-link">About Us</NuxtLink>
           <NuxtLink to="/about" class="nav-link">Our services</NuxtLink>
-          <NuxtLink to="/about" class="nav-link">Contact Us</NuxtLink>
+          <NuxtLink to="/contact-us" class="nav-link">Contact Us</NuxtLink>
         </div>
         <div class="col-md-4 text-center">
-          <h5>Contact Info</h5>
+          <h5>Get In Touch</h5>
           <p>Address: 145/3-1 Matikhata Dhaka Cantonment Dhaka-1206.</p>
           <p>Email: admin@unitedengineeringbd.com</p>
           <p>Business Hours: Saturday-Thursday 9am to 6pm.</p>

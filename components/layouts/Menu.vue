@@ -1,10 +1,13 @@
 <template>
   <b-navbar toggleable="lg" style="background: #eaeaea">
-    <b-navbar-brand href="#"
-      ><span class="text-danger"
-        >United<span class="font-weight-bold">Engineering</span></span
-      >
-    </b-navbar-brand>
+    <NuxtLink to="/" class="navbar-brand">
+      <b-img-lazy
+        rounded
+        src="~/assets/img/logo/main.png"
+        alt=""
+        style="height: 70px; witdth: 100%; object-fit: cover"
+      ></b-img-lazy>
+    </NuxtLink>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
@@ -20,7 +23,7 @@
           <b-dropdown-item href="#">FA</b-dropdown-item>
         </b-nav-item-dropdown>
         <b-nav-item href="#">Our Service</b-nav-item>
-        <b-nav-item href="#">Contact us</b-nav-item>
+        <NuxtLink to="/contact-us" class="nav-link">Contact us</NuxtLink>
       </b-navbar-nav>
     </b-collapse>
   </b-navbar>

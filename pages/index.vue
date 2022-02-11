@@ -1,6 +1,7 @@
 <template>
   <div>
     <Carousel></Carousel>
+
     <div class="mt-5">
       <div class="row">
         <div class="col-md-8">
@@ -62,6 +63,7 @@
         </div>
       </div>
     </div>
+
     <div class="mt-5">
       <OurClient></OurClient>
     </div>
@@ -73,6 +75,7 @@
         </div>
       </div>
     </div>
+
     <div class="mt-5">
       <OurBrand></OurBrand>
     </div>

@@ -39,9 +39,11 @@ export default {
 
     {
       src: '~/plugins/element-ui.js',
-
+	ssr:false,
     },
   ],
+
+  target: 'static',
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -50,7 +52,15 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
+    '@nuxtjs/fontawesome',
   ],
+
+  fontawesome: {
+    icons: {
+      regular: [],
+
+    }
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
@@ -61,10 +71,6 @@ export default {
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
   ],
-
-  bootstrapVue: {
-    icons: true
-  },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
